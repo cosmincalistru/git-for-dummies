@@ -10,6 +10,7 @@ public class Application {
         words.add("git");
         words.add("for");
         words.add("dummies");
+        words.add("ed1");
 
         System.out.println(words);
     }
