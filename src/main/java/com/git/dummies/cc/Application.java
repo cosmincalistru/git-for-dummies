@@ -11,6 +11,8 @@ public class Application {
         words.add("for");
         words.add("dummies");
 
-        System.out.println(words);
+        for (String s: words) {
+            System.out.print(s + " ");
+        }
     }
 }
