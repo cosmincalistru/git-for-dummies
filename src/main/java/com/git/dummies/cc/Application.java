@@ -8,7 +8,7 @@ public class Application {
     public static void main (String[] args) {
         List<String> words = new ArrayList<>();
         words.add("git");
-        words.add("for");
+        words.add("For");
         words.add("dummies");
 
         System.out.println(words);
