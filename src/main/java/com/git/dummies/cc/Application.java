@@ -12,6 +12,6 @@ public class Application {
         words.add("dummies");
         words.add("mihai");
 
-        System.out.println(words);
+        System.out.println(words.stream().collect(Collectors.joining(" ")));
     }
 }
