@@ -12,6 +12,6 @@ public class Application {
         words.add("dummies");
         words.add("ed1");
 
-        System.out.println(words);
+        words.forEach(result -> System.out.print(result + " "));
     }
 }
