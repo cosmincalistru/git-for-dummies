@@ -12,12 +12,12 @@ public class Application {
         words.add("dummies");
         words.add("now");
 
-        afiseaza();
+        show();
 
         System.out.println(words);
     }
 
-    public static void afiseaza() {
-        System.out.println("pentru un nou commit");
+    public static void show() {
+        System.out.println("for a new commit");
     }
 }
